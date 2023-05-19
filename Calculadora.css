@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+.gavetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    left: -240px;
+    transition: all 0.5s;
+}
+.exibir{
+    left: 0px !important;
+    transition: all 0.5s;
+}
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    border: 3px solid #bbb;
+    width: 240px;
+    border-radius: 15px;
+}
+.classe_nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classe_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    overflow: hidden;/*Esconde o que sair da DIV*/
+}
+.display{
+    width: 220px;
+    background-color: #8a8;
+    text-align: right;
+    padding: 6px;
+    font-family: NDS12;
+    font-size: 25px;
+}
+.classe_teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    flex-wrap: wrap;
+}
+.teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 3px solid #888;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 2px;
+}
+.tecla_operacionais{
+    background-color: #f44 !important;
+    border-color: #800 !important;
+}
+#tON_OFF{
+    font-size: 11px;
+}
+#puxador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 50px;
+    background-color: rgba(128,128,128,0.2);
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
