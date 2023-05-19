@@ -42,6 +42,7 @@ teclasOperacionais.forEach((el)=>{
     el.addEventListener("click",(evt)=>{
         if(!sinal){
             sinal=true
+            decimal=false
             if(display.innerHTML=="0"){
                 display.innerHTML=""
             }
